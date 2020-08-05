@@ -1,0 +1,209 @@
+.toolbar {
+	width: 100%;
+	height: auto;
+	min-height: 20px;
+	padding: 10px 20px;
+	float: left;
+	text-align: left;
+	 box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+}
+/*.toolbar .el-input {
+	width: 160px;
+	height: 30px;
+}
+.toolbar .el-input input {
+	height: 30px;
+	line-height: 30px;
+	width: 160px;
+}
+.toolbar .el-button {
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 5px;
+	margin-left: 10px;
+}*/
+.toolbar label {
+	font: 400 13.3333px Arial;
+	margin-top: 10px;
+}
+.pull-left {
+	float: left !important;
+}
+.pull-right {
+	float: right !important;
+}
+.block {
+	margin-bottom: 25px;
+	height: 100%;
+}
+.el-form,.el-form-item {
+	float: left;
+}
+.half{
+	width: 50%;
+}
+.one-third {
+	width: 33%;
+}
+.one-third-left {
+	width: 33%;
+	float: left;
+}
+.one-third-right {
+	width: 33%;
+	float: right;
+}
+.one-third-center {
+	width: 33%;
+	margin: auto;
+}
+.tow-third {
+	width: 67%;
+}
+.tow-third-left {
+	width: 67%;
+	float: left;
+}
+.tow-third-right {
+	width: 67%;
+	float: right;
+}
+.tow-third-center {
+	width: 67%;
+	margin: auto;
+}
+.half-left{
+	width: 50%;
+	float: left !important;
+}
+.half-right{
+	width: 50%;
+	float: right !important;
+}
+.half-center{
+	width: 50%;
+	margin: auto;
+}
+.el-dialog {
+		width: 60%;
+	}
+	.el-form,.el-form-item {
+		float: left;
+	}
+	.dialog-footer{
+		clear:left;
+		height: 40px;
+	}
+	.dialog-footer button{
+		margin-top: 10px;
+		float: right;
+		margin-left: 10px;
+	}
+	.el-form,.el-form-item {
+		float: left;
+	}
+	.el-dialog .el-form-item input {
+		width: 202px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+	}
+	.dialog-footer{
+		clear:left;
+		height: 40px;
+	}
+	.dialog-footer button{
+		margin-top: 10px;
+		float: right;
+		margin-left: 10px;
+	}
+	.el-textarea textarea{
+		resize:none;
+	}
+	.main-contanue {
+		width: 100%;
+		height: 100%;
+	}
+	.main-contanue .toolbar {
+		width: 100%;
+		height: 48px;
+		border-bottom: 1px solid #bbbbbb;
+		background-color: #bbbb11;
+		line-height: 45px;
+	}
+	.main-contanue .toolbar img {
+		width: 24px;
+	}
+	.first-tip-modal-hide {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: #000000;
+		opacity: 0.6;
+		z-index: 1024;
+	}
+	.first-tip-modal {
+		position: absolute;
+		z-index: 1200;
+		width: 80%;
+		height: 80%;
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+	.first-tip-modal .content{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: #FFFFFF;
+		border-radius: 15px;
+		opacity: 1;
+	}
+	.first-tip-modal .content .buttom {
+		margin-top: 10px;
+		padding: 12px 40px;
+	}
+	.first-tip-modal .content .content-text {
+		width: 90%;
+		height: 80%;
+		padding: 5%;
+	}
+	.first-tip-modal .content .content-text p{
+		text-align: left;
+		font-family: 'SimHei';
+		font-size: 1.1em;
+	}
+	.first-tip-modal .content p span{
+		color: red;
+		font-weight: 400;
+	}
+	.input-list {
+		width: 100%;
+		margin-top: 20px;
+		position: relative;
+	}
+	.input-list .input-list-item {
+		width: 100%;
+		margin-left: 1em;
+		border-bottom: 1px solid #bbbbbb;
+		position: relative;
+		height: 40px;
+	}
+	.input-list .input-list-item .label {
+		width: 30%;
+		text-align: left;
+		height: 40px;
+		line-height: 40px;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.input-list .input-list-item .input {
+		width: 68%;
+		text-align: left;
+		height: 1.4em;
+		line-height: 1.4em;
+		float: left;
+		margin-bottom: 10px;
+	}
